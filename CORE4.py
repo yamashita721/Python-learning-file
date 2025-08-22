@@ -10,8 +10,6 @@ gpa=9.9
 is_student=True
 
 print(type(is_student))
-print(type(age))
-print(type(name))
 
 #now we will type one data type to another
 
@@ -22,9 +20,6 @@ gpa= int(gpa)
 print(gpa)
 
 name = bool(name)
-# we can check it to confirm weather if somebody has written his/her name:
-#  for example just erase the name in string and check or keep just one alphabet tho that's an issue
-
 
 print(name)
 
