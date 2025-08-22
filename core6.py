@@ -1,9 +1,9 @@
 #excercise : rectangle area calculation ( area = l*b)
 #for writing area unit centimeter sqare we use: num lock on + alt+ 0178
 
-length=float(input("enter the length"))
+length=float(input("enter the length:"))
 
-width=float(input("enter the width"))
+width=float(input("enter the width:"))
 
 area= length*width
 
@@ -16,7 +16,7 @@ price= float(input("what is the price?:"))
 quantity= int(input("how much would you like to buy?:"))
 total= price * quantity
 
-print(total)
+print(f"you have bought {quantity} pizza.")
 print(f"your total is ${total}")
 
 #this is how we accept users input in python
