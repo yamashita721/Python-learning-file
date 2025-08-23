@@ -1,7 +1,8 @@
 
 response = input("would you like some food? (y/n): ")
 
-
+# we used here double equal sign to check double condition
+# since equal sign used as assingment operator!
 if response == "y":
     print("have some food.")
 else:
