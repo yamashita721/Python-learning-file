@@ -1,6 +1,8 @@
 # Python Calculator
 # .strip() removes any extra spaces which causes errors in code
 
+
+
 while True:
     operator = input("enter an operator  (+ - * /): ").strip()
 
@@ -22,23 +24,25 @@ while True:
 
     if operator == "+":
         result = num1 + num2
-        print(result)
+        print(round(result, 2))
+
 
     elif operator == "-":
         result = num1 - num2
-        print(result)
+        print(round(result, 2))
+
 
     elif operator == "*":
         result = num1 * num2
-        print(result)
+        print(round(result, 2))
+
 
     elif operator == "/":
         result = num1 / num2
-        print(result)
+        print(round(result,2))
 
     else:
         print("invalid operator")
         choice = input("do you want to contiue? (yes/no): ")
         if choice.lower() == "no":
             break
-

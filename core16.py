@@ -1,4 +1,4 @@
-# Tempreture conversion programme
+# Temperature conversion programme
 
 while True: #used it for making loop
     unit = input("is this tempreature in celcius or fahrenheit (c/f): ").strip().lower()
@@ -9,7 +9,7 @@ while True: #used it for making loop
 
     if unit == "c":
         temp = (9 * temp / 5 + 32)
-        print(f"the tempreture in fahrenheit is: {temp} °f") # for bringing degree used alt + 0176
+        print(f"the temperature in fahrenheit is: {temp} °f") # for bringing degree used alt + 0176
 
 
     elif unit == "f":
@@ -24,7 +24,7 @@ while True: #used it for making loop
         break # last three lines for asking choices and breaking loop
 
 # .strip() -- it helps to avoid issue of some extra spaces
-# .lower() -- it was used so that even wif type captial or small
+# .lower() -- it was used so that even wif type capital or small
 # c or f code works
-# we could have also added error handling for tempreture input
+# we could have also added error handling for temperature input
 # will add that later on

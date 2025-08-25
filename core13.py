@@ -12,7 +12,10 @@ else:
 #another example
 name = input("enter your name: ")
 
-if name == "":
-    print(f"you did not type your name. ")
-else:
-    print(f"hello {name}")
+while True:
+    if name == "":
+        print(f"you did not type your name. ")
+        name = input("enter your name: ")
+    else:
+        print(f"Hello {name}")
+        break

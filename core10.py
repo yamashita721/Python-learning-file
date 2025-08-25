@@ -3,7 +3,7 @@ import math
 
 radius = float(input("enter the radius of a circle"))
 
-circumfernce = 2 * math.pi * radius
+circumference = 2 * math.pi * radius
 
 print(f"the circumference of a circle is : {round(circumfernce)}")
 

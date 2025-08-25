@@ -1,7 +1,7 @@
 # logical operators = evaluate multiple conditions (or ,and , not)
 #                     or = at least one condition must be true( then entire statement is true)
 #                     and = both conditions must be true
-#                     not = iverts the conditons ( not false , not true)
+#                     not = inverts the conditions ( not false , not true)
 
 #temp = -5
 #is_raining = False

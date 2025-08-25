@@ -1,6 +1,6 @@
 # conditional operator = A one line shortcut for the if-else statement (ternary operator)
 #                        print or assign one of the two values based on a condition
-#                        Return X if condition else Y
+#                        "X" if condition else "Y"
 
 
 #while True:
@@ -18,7 +18,7 @@
 
    # choice = input("do u wanna continue? (yes/no):")
     #if choice.lower() == "no":
-     #   print("okay , plese try back again someday😁")
+     #   print("okay , please try back again someday😁")
       #  break
 
 # Let's try one line else if statement
@@ -26,12 +26,14 @@
 num = 8
 a = 7
 b = 5
-
+age = 19
 
 #print("positive" if num > 0 else "negative")
 #result = "EVEN" if num % 2 == 0 else "OOD" # % modulus function which gives remainder
 #max_num = a if a > b else b
-min_num = a if a < b else b
+#min_num = a if a < b else b
 
-print(min_num)
+status = "adult" if age>= 18 else "child"
+
+print(status)
 

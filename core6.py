@@ -1,11 +1,11 @@
 #excercise : rectangle area calculation ( area = l*b)
 #for writing area unit centimeter sqare we use: num lock on + alt+ 0178
+length = float(input("Enter length: "))
+breadth = float(input("Enter breadth: "))
 
 
-
-area= length*width
-
-print(f"the area of rectangle is: {area} cm²")
+area= length * breadth
+print(f"the area of rectangle is: {round(area,3)} cm²")
 
 #excersie 2: shopping cart program
 

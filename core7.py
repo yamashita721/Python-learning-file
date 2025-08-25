@@ -2,6 +2,7 @@
 #it's a word game where u create a story
 #by filling in the blanks with random words
 
+adjective1 = input("enter an adjective: ")
 noun1= input('enter an noun1 (person,place,thing)')
 adjective2= input("enter an adjective (description): ")
 verb1= input(" enter an verb ending with 'ing' ")
