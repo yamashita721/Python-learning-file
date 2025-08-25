@@ -11,7 +11,7 @@ is_student=True
 
 print(type(is_student))
 
-#now we will type one data type to another
+#now we will convert one data type to another
 
 #lets convert gpa to a float
 
